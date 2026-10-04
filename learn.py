@@ -115,6 +115,26 @@
  #matrix represnt in list as a 2d list
 
 
+ #3*3
+
+matrix = [
+    [2,3,4], #0
+    [3,4,5], #1
+    [3,4,5] #2
+ ]
+
+print(matrix[1][1])
+
+#65*75
+
+for i in range(0,3):
+    for j in range(0,3):
+        print(matrix[i][j],end=" ")
+    print()
+
+
+
+
 
 
 
