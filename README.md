@@ -36,7 +36,6 @@ A collection of solved HackerRank problems focused on data structures and logic 
 | 1 | **Nested Lists** | Nested Lists, Sorting, Finding 2nd lowest score | ✅ Solved |
 | 2 | **Finding the Percentage** | Dictionaries, Floating-point formatting (`.2f`), Average calculation | ✅ Solved |
 | 3 | **List Operations** | Dynamic command execution (`insert`, `remove`, `append`, `sort`, `pop`, `reverse`) | ✅ Solved |
-| 4 | **Roman Numerals Validation** | String parsing, Regex concepts | 🔄 In Progress |
 
 ---
 
