@@ -111,33 +111,66 @@
 # print(new_list)
 
 
-#--------------------#nested list--------------------------
- #matrix represnt in list as a 2d list
+# --------------------#nested list--------------------------
+# matrix represnt in list as a 2d list
 
 
- #3*3
+# 3*3
 
-matrix = [
-    [2,3,4], #0
-    [3,4,5], #1
-    [3,4,5] #2
- ]
+#matrix = [[2, 3, 4], [3, 4, 5], [3, 4, 5]]  # 0  # 1  # 2
 
-print(matrix[1][1])
+# print(matrix[1][1])
 
-#65*75
+# #65*75
 
-for i in range(0,3):
-    for j in range(0,3):
-        print(matrix[i][j],end=" ")
-    print()
+# for i in range(0,3):
+#     for j in range(0,3) print(matrix[i][j],end=" ")
+#     print(
 
 
+# r = len(matrix)
+# c = len(matrix[0])
+# for i in range(0, r):
+#     for j in range(0, c):
+#         if i >= j:
+#             print(matrix[i][j], end=" ")
+#         else:
+#             print("*",end=" ")
+#     print()
+# Given the names and grades for each student in a class of  students, store them in a nested list and print the name(s) of any student(s) having the second lowest grade.
+# Note: If there are multiple students with the second lowest grade, order their names alphabetically and print each name on a new line
+# if __name__ == '__main__':
+#     student_name = [
+#         ['Harry', 37.21],
+#         ['Berry', 37.21],
+#         ['Tina', 37.2],
+#         ['Akriti', 41],
+#         ['Harsh', 39]
+#     ]
+
+#     grades = []
+
+#     for i in range(len(student_name)):
+#         grades.append(student_name[i][1])
+
+#     # Remove duplicates and sort
+#     grades = sorted(set(grades))
+
+#     second_lowest = grades[1]
+
+#     name = []
+
+#     for i in range(len(student_name)):
+#         if student_name[i][1] == second_lowest:
+#             name.append(student_name[i][0])
+
+#     name.sort()
+
+#     for i in name:
+#         print(i)
 
 
-
-
-
-
-
-
+# name = {
+#     "ap":[2,3]
+# }
+# print(name["ap"][0])   
