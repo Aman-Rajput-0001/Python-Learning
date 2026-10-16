@@ -174,3 +174,51 @@
 #     "ap":[2,3]
 # }
 # print(name["ap"][0])   
+
+
+
+# subject1 = int(input("enter your 1st subject name :- "))
+# subject2 = int(input("enter your 2nd subject name :- "))
+# subject3 = int(input("enter your 3rd subject name :- "))
+# total = subject1+subject2+subject3
+# avg = total/3
+
+# print(f"Your Total marks is {total}\nYour avg is {avg:.2F}")
+
+
+# age = int(input("Enter Your age = "))
+
+# if age >= 18:
+#     print("you can vote")
+    
+# # print("you cannot vote")
+
+
+# num = int(input("Enter your Number = "))
+
+# if num == 0:
+#     print(f"{num} is Zero")
+# elif num < 0:
+#     print(f"{num} is negative")
+# elif num > 0:
+#     print(f"{num} is positive")
+
+# a = int(input("Enter Your a number = "))
+# b = int(input("Enter Your b number = "))
+
+# if a == b :
+#     print("Both Are equal")
+# elif a > b:
+#     print(a)
+    
+# else:
+#     print(b)
+
+year = int(input("Enter Your Year  = "))
+
+if (year%4 == 0 and year%100 != 0)or (year % 400 == 0) :
+    print(f"{year} is a leap year") 
+    
+else:
+    print("Not a Leap Year")
+    
