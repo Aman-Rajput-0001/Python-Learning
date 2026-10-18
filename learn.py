@@ -213,12 +213,94 @@
     
 # else:
 #     print(b)
+#Leap year Program
+# year = int(input("Enter Your Year  = "))
 
-year = int(input("Enter Your Year  = "))
-
-if (year%4 == 0 and year%100 != 0)or (year % 400 == 0) :
-    print(f"{year} is a leap year") 
+# if (year%4 == 0 and year%100 != 0)or (year % 400 == 0) :
+#     print(f"{year} is a leap year") 
     
-else:
-    print("Not a Leap Year")
+# else:
+#     print("Not a Leap Year")
+
+# Salalry_month = int(input("Enter Your Monthly salaery = "))
+# yearly = Salalry_month * 12
+# tax =  (30 / 100) * yearly
+
+# print(f"Your In hand salaery {(yearly - tax) / 12 }")
+
+# num = int(input("Enter your number = "))
+# last = int(input(f"Where You want table of {num} = "))
+
+# i = 1
+
+# while i<=last:
+#     print(f"{num} * {i} = {num*i} ")
+#     i +=1
+
+# num = int(input("Enter your number = "))
+
+# i = 1
+# count = 0
+
+# while i<=num:
+#     if num%i == 0:
+#         count += 1
+#     i +=1
+    
+# print(count)
+
+# num = int(input("Enter your number = "))
+
+# total = 0
+
+# while True: 
+#     num = int(input("Enter your number = "))
+#     if num < 0:
+#         continue
+#     if num == 0:
+#         break
+#     total += num
+    
+# print(total)
+
+# for i in range(5,0,-1):
+#     for j in range(1,6):
+#         print(i,end=' ')
+#     print()
+
+# for i in range(5,0,-1):
+#     for j in range(5,i-1,-1):
+#         print(j,end=' ')
+#     print()
+# for i in range(2,6):
+#     for j in range(5,i-1,-1):
+#         print(j,end=' ')
+#     print()
+
+
+# def absolute_value(num):
+    
+#     if num >= 0:
+#         return num
+#     return num * -1
+
+# print(absolute_value(100))
+
+# vote = lambda age:True if age>=18 else False
+# (vote(16))
+        
+def fizzbuzz(n):
+    if n%3 == 0 and n%5 == 0:
+        print(n)
+    elif  n%3 == 0:
+        print("fizz")
+    elif n%5 == 0:
+        print("Buzz")
+        
+fizzbuzz(5)
+    
+        
+
+
+
     
